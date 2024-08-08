@@ -1,57 +1,48 @@
-# Título do projeto
+# Telemarketing Analysis
 
-Um simples resumo do uso/propósito do projeto.
+Este projeto consiste em uma aplicação desenvolvida em Streamlit para a análise de campanhas de telemarketing. O objetivo é fornecer uma interface interativa para explorar os dados, aplicar filtros, visualizar gráficos e realizar download dos resultados filtrados.
 
-## Descrição do projeto
+## Funcionalidades
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+- **Carregamento de Dados:**
+  - Suporte para arquivos CSV e Excel.
+  - Visualização inicial dos dados carregados.
 
-## Utilização
+- **Filtros Personalizados:**
+  - Filtragem por idade, profissão, estado civil, se o cliente possui default, financiamento imobiliário, empréstimo, meio de contato, mês e dia da semana.
+  - Aplicação de múltiplos filtros com opção de selecionar todos ou apenas alguns valores específicos.
 
-### Dependencias
+- **Visualização de Dados:**
+  - Gráficos de barras e de pizza para análise da proporção de resultados de campanhas.
+  - Comparação entre os dados brutos e os dados filtrados.
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+- **Download dos Resultados:**
+  - Opção para download dos dados filtrados em formato Excel.
+  - Download dos dados utilizados para gerar os gráficos.
 
-### Instalação
+## Como Usar
 
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+1. Acesse a aplicação pelo link: [Telemarketing Analysis](https://telemarketing-9pcf.onrender.com/).
 
-### Executando o projeto
+2. Carregue seu arquivo de dados no formato CSV ou Excel utilizando a barra lateral.
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
+3. Utilize os filtros disponíveis na barra lateral para ajustar os dados conforme suas necessidades.
 
-## Ajuda
+4. Visualize os dados filtrados e compare com os dados brutos.
 
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
+5. Faça o download dos dados filtrados ou dos dados utilizados para gerar os gráficos.
 
-## Autores
+## Como Fazer Deploy
 
-Nomes dos desenvolvedores do projeto e informação para entrar em contato.
+### Passo a Passo para Deploy no Render
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
+1. **Crie um Repositório no GitHub:**
+   - Acesse [GitHub](https://github.com/) e crie um novo repositório.
 
-## Histórico de versões.
+2. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
-
-## Licença de uso
-
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
-
-## Fontes de inspiração
 
 Inspiração, trechos de códigos utilizados, etc.
 * [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
